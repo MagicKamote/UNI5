@@ -1,0 +1,43 @@
+$wew: #fff
+$blue: #257da5
+$black: #333
+
+=default_style($width,$height,$display: inline-block,$position: relative)
+	width: $width
+	height: $height
+	display: $display
+	position: $position
+
+=light($size: 1em)
+	font-family: 'Ubuntu', sans-serif
+	font-size: $size
+	font-weight: 300
+
+=regular($size: 1em)
+	font-family: 'Ubuntu', sans-serif
+	font-size: $size
+	font-weight: 400
+
+=bold($size: 1em)
+	font-family: 'Ubuntu', sans-serif
+	font-size: $size
+	font-weight: 700	
+
+
+body
+	+default_style(100%,auto)
+	
+
+.header ul
+	+default_style(50%,auto)
+	background-color: #ddd
+	float: right
+	li
+		float: left
+		margin: 10px
+		+light(1.1em)
+		a
+			&:hover	
+				color: #777
+
+// 				

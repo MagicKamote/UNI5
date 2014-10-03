@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative; }
+
+.header ul {
+  width: 50%;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  background-color: #ddd;
+  float: right; }
+  .header ul li {
+    float: left;
+    margin: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300; }
+    .header ul li a:hover {
+      color: #777; }
+
+/*# sourceMappingURL=main.css.map */
