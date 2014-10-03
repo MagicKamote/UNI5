@@ -24,20 +24,30 @@ $black: #333
 	font-weight: 700	
 
 
-body
+body,.container
 	+default_style(100%,auto)
+	margin: 0
+	padding: 0
 	
 
 .header ul
-	+default_style(50%,auto)
+	+default_style(60%,auto)
 	background-color: #ddd
-	float: right
+	float: right	
 	li
 		float: left
-		margin: 10px
+		margin: .8em 2em 
 		+light(1.1em)
 		a
 			&:hover	
 				color: #777
 
-// 				
+.input-group
+	width: 11em
+
+
+.form-control.search
+	width: 10em
+	height: 28px
+
+				

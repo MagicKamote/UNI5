@@ -1,11 +1,13 @@
-body {
+body, .container {
   width: 100%;
   height: auto;
   display: inline-block;
-  position: relative; }
+  position: relative;
+  margin: 0;
+  padding: 0; }
 
 .header ul {
-  width: 50%;
+  width: 60%;
   height: auto;
   display: inline-block;
   position: relative;
@@ -13,11 +15,18 @@ body {
   float: right; }
   .header ul li {
     float: left;
-    margin: 10px;
+    margin: 0.8em 2em;
     font-family: "Ubuntu", sans-serif;
     font-size: 1.1em;
     font-weight: 300; }
     .header ul li a:hover {
       color: #777; }
+
+.input-group {
+  width: 11em; }
+
+.form-control.search {
+  width: 10em;
+  height: 28px; }
 
 /*# sourceMappingURL=main.css.map */
